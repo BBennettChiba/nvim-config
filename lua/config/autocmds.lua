@@ -10,8 +10,8 @@ autocmd FileType php set iskeyword+=$
   false
 )
 
-vim.api.nvim_create_autocmd("BufEnter", {
-  callback = function(_)
-    vim.api.nvim_command(':TwilightEnable')
-  end,
-})
+-- vim.api.nvim_create_autocmd("BufEnter", {
+--   callback = function(_)
+--     vim.api.nvim_command(':TwilightEnable')
+--   end,
+-- })
