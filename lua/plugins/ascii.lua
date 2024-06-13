@@ -1,1 +1,0 @@
-return { "BBennettChiba/ascii.nvim" }
