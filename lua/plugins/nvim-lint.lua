@@ -9,7 +9,7 @@ return {
       dockerfile = { "hadolint" },
       -- markdown = { "sonarlint-language-server"},
       -- lua = { "luacheck" },
-      php = { "tlint" },
+      -- php = { "tlint" },
       -- ['js','jsx', 'ts', 'tsx'] = { 'eslint_d'},
       -- php = { "psalm" },
       js = { "eslint_d" },
