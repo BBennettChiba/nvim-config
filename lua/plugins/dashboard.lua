@@ -1,9 +1,15 @@
 return {
-  "nvimdev/dashboard-nvim",
+  "snacks.nvim",
   dependencies = { "BBennettChiba/ascii.nvim" },
-  opts = function(_, opts)
+  opts = function()
     local logo = table.concat(require("ascii").get_holiday_random(), "\n")
     logo = string.rep("\n", 3) .. logo .. "\n\n"
-    opts.config.header = vim.split(logo, "\n")
+    return {
+      dashboard = {
+        preset = {
+          header = logo,
+        },
+      },
+    }
   end,
 }
